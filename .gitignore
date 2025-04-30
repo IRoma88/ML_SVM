@@ -1,0 +1,24 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+.env/
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Cachés y temporales
+*.log
+*.cache
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Dataset descargado por sklearn
+lfw_home/
